@@ -1,0 +1,41 @@
+.visual-editor{
+  width: 100%; min-height: 500px; border: solid 1px #ccc;
+  display: flex;
+  *{
+    padding: 0; margin: 0; font-size: 12px; box-sizing: border-box;
+  }
+}
+.visual-editor-source{
+  width: 50%; border: none 0; padding: 10px;
+  font-size: 12px; outline: none; resize: none;
+}
+.visual-editor-view{
+  width: 50%; border-left: solid 1px #ccc;
+  position: relative; overflow: hidden;
+}
+.visual-editor-toolbar{
+  position: absolute;
+  width: 100%; height: 30px; background: #eee;
+}
+.visual-editor-con{
+  outline: none; padding-top: 30px;
+}
+.visual-editor-link-pop{
+  position: absolute; background: #fff; border: solid 1px #ccc; padding: 10px; 
+  line-height: 20px; color: #666;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3); display: none;
+  label{
+
+  }
+  input,
+  button{
+    border: solid 1px #ccc; color: #666; border: solid 1px #ccc;
+    background: #fff;
+  }
+  input{
+    width: 200px; padding: 2px 5px; 
+  }
+  button{
+    cursor: pointer; padding: 1px 5px; 
+  }
+}
